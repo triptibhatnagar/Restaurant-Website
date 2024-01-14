@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(food2.jpg);
+}
+.navigation{
+    color:yellow;
+    display:flex;
+    justify-content: space-between;
+}
+a{
+    color:black;
+}
+a:hover{
+    color:lime;
+}
+.navbya{
+    margin:5px;
+    padding:2px;
+    background-color: red;
+    border-radius: 10px;
+}
+#head1{
+    margin:5px;
+}
+#welcome{
+    color: aquamarine;
+    font-weight: bolder;
+    font-size: 30px;
+}
+#quote{
+    color:blueviolet;
+    font-family: 'Black Ops One', system-ui;
+}
+.main{
+    margin-top: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
